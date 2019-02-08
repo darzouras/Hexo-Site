@@ -1,7 +1,20 @@
 <footer id="footer">
   
-    <div id="footer-info" class="inner">
-      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
-      <%= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a>
+  <div class="footer-inner">
+    <div class="footer-social">
+      <a href="http://linkedin.com/in/darlenezouras" target="_blank" class="footer-icon" id="footer-linkedin-link"></a>
+      <a href="http://twitter.com/darzouras" target="_blank" class="footer-icon" id="footer-twitter-link"></a>
+      <a href="http://instagram.com/darzouras" target="_blank" class="footer-icon" id="footer-insta-link"></a>
+      <a href="http://github.com/darzouras" target="_blank" class="footer-icon" id="footer-github-link"></a>
     </div>
+
+    <div class="footer-email">
+      <a href="mailto:dzouras@gmail.com">dzouras@gmail.com</a>
+    </div>
+
+    <div id="footer-info" class="inner">
+
+      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %> | <%= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
 </footer>
