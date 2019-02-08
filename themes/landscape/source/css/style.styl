@@ -22,7 +22,7 @@ input, button
        url(font-icon-path + ".ttf?v=#" + font-icon-version) format("truetype"),
        url(font-icon-path + ".svg#fontawesomeregular?v=#" + font-icon-version) format("svg")
 
-html, body, #container
+html, body
   height: 100%
 
 body
@@ -50,21 +50,11 @@ body
 
 #container
   position: relative
+  margin-top: 50px
+  margin-bottom: 115px
 
 .mobile-nav-on
   overflow: hidden
-
-#wrap
-  height: 100%
-  width: 100%
-  position: absolute
-  top: 0
-  left: 0
-  transition: 0.2s ease-out
-  z-index: 1
-  background: color-med
-  .mobile-nav-on &
-    left: mobile-nav-width
 
 @import "_extend"
 @import "_partial/header"
