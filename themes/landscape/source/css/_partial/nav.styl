@@ -1,0 +1,43 @@
+#nav
+    position: fixed
+    top: 0
+    left: 15px
+    background: color-darkest
+    color: color-light
+    z-index: 99
+    border-radius: 0 0 15px 15px
+
+#nav-show
+    cursor: pointer
+    width: 100px
+
+#nav-hide
+    display: none
+
+$nav-link
+    color: color-light
+    text-decoration: none
+
+.nav-selection
+    padding: 7px 17px
+
+#nav-show
+    .nav-link
+        display: inline-block
+        margin: auto
+
+.nav-link
+    @extend $nav-link
+    font: 1.3em font-serif
+
+.nav-icon
+    @extend $nav-link
+    display: inline-block
+    font: 1.1em font-icon
+    margin-left: 10px
+
+#nav-expand
+    float: right
+    margin-top: 2px
+    &:before
+        content: "\f067"

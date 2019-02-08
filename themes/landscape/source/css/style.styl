@@ -26,7 +26,7 @@ html, body, #container
   height: 100%
 
 body
-  background: color-background
+  background: color-med
   font: font-size font-sans
   -webkit-text-size-adjust: 100%
 
@@ -66,18 +66,9 @@ body
   .mobile-nav-on &
     left: mobile-nav-width
 
-if sidebar and sidebar isnt bottom
-  #main
-    @media mq-normal
-      column(main-column)
-
-if sidebar is left
-  @media mq-normal
-    #main
-      float: right
-
 @import "_extend"
 @import "_partial/header"
+@import "_partial/nav"
 @import "_partial/article"
 @import "_partial/comment"
 @import "_partial/archive"
