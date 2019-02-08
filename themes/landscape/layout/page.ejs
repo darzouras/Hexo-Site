@@ -1,12 +1,7 @@
+<%- partial('_partial/page-header') %>
+
 <div class="page-header">
     <div class="page-header-container">
-    <h1><%= page.title %></h1>
-
-    <% if (page.intro) { %>
-        <p class="page-header-intro">
-            <%- page.intro %>
-        </p>
-    <% } %>
+        <%- page.content %>
+    </div>
 </div>
-
-<%- partial('_partial/article', {post: page, index: false}) %>
