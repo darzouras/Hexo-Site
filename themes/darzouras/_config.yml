@@ -1,8 +1,9 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
+  Work: /work
   Now: /now
+  Archives: /archives
 rss: /atom.xml
 
 # Content

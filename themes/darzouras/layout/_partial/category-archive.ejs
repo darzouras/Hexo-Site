@@ -1,3 +1,3 @@
-<% site.categories.findOne({name: page.category_sort}).posts.limit(page.category_limit).forEach(function(post) { %>
+<% site.categories.findOne({name: page.category_sort}).posts.limit(page.category_limit).sort('date', -1).forEach(function(post) { %>
     <%- partial('article', {post: post, index: true}) %>
 <% }) %>

@@ -1,6 +1,6 @@
 ---
 title: Now
-layout: now
+layout: page-with-feed
 date: 2019-02-08 14:14:14
 category_sort: now
 category_limit: 3
