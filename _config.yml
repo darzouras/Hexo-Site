@@ -10,13 +10,14 @@ keywords:
 author: Darlene Zouras
 language: English
 timezone: 
+icon: /css/images/dar-avatar1.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
-permalink_defaults:
+permalink_defaults: :title
 
 # Directory
 source_dir: source
