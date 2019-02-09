@@ -2,6 +2,8 @@
 title: Now
 layout: now
 date: 2019-02-08 14:14:14
+category_sort: now
+category_limit: 3
 intro:
     <b>What have I been up to?</b><br />... and <a href="https://nownownow.com/about">what is a now page</a>?
 ---

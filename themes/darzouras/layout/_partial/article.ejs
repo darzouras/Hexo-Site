@@ -23,6 +23,7 @@
 
   <div class="article-meta">
     <div class="article-meta-content">
+      <%- partial('post/category') %>
       <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link"><%= __('share') %></a>
       <%- partial('post/tag') %>
     </div>

@@ -1,25 +1,9 @@
-.article
-  margin: block-margin 0
-
-.article-inner
-  @extend $block
-  overflow: hidden
-
 .article-meta
   clearfix()
 
-
 .article-category
   line-height: 1em
-  color: #ccc
-  text-shadow: 0 1px #fff
-  margin-left: 8px
-  &:before
-    content: "\2022"
-
-.article-category-link
-  @extend $block-caption
-  margin: 0 12px 1em
+  margin-right: 10px
 
 .article-header
   padding: article-padding article-padding 0
@@ -116,33 +100,6 @@
       width: 100%
       height: 100%
       margin-top: 0
-
-.article-more-link a
-  display: inline-block
-  line-height: 1em
-  padding: 6px 15px
-  border-radius: 15px
-  background: color-background
-  color: color-grey
-  text-shadow: 0 1px #fff
-  text-decoration: none
-  &:hover
-    background: color-link
-    color: #fff
-    text-decoration: none
-
-.article-footer
-  clearfix()
-  font-size: 0.85em
-  line-height: line-height
-  border-top: 1px solid color-border
-  padding-top: line-height
-  margin: 0 article-padding article-padding
-  a
-    color: color-grey
-    text-decoration: none
-    &:hover
-      color: color-default
 
 .article-tag-list-link
   &:before
