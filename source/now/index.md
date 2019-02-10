@@ -17,7 +17,7 @@ Passing on my knowledge of CSS magic to the rest of the team.
 
 ## Personally
 
-Recently married on October 1st to my husband! We live near St. Louis with a fluffy black cat and a corgi-mix. We are constantly buried in hair.
+Recently married to my partner of nearly 5 years! We live near St. Louis with a fluffy black cat and a corgi-mix. We are constantly buried in hair.
 
 Making different versions of this website over and over again instead of getting back into drawing and painting.
 
