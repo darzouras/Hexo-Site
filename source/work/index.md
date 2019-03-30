@@ -20,6 +20,29 @@ Projects assigned to my team usually have tight deadlines so I have become used 
 | | | | |
 | :---: | :---: | :---: | :---: |
 | Agile Development | HTML | CSS | JavaScript |
-| jQuery | Mobile-first design | Git (Bitbucket) | ModX |
-| WordPress | PHP | NodeJS | Express |
-| Angular | Vue |
+| jQuery | Mobile-first design | Git (Bitbucket) | SEO |
+| ModX | WordPress | NodeJS | Express |
+| PHP | Angular | Vue |
+
+### 2017 Projects
+
+- **[Catalyst PR Website](https://catalystpublicrelations.com/)** (support) : NodeJS and Express, SCSS, scroll animations
+- **[The Friedkin Group Website](https://friedkin.com)** (solo) : ModX, jQuery, custom ModX theme
+- **[Elysian Brewing Website](https://www.elysianbrewing.com)** (solo) : Custom ModX theme
+
+### 2018 Projects
+
+- **[Pursuit Aviation website](http://pursuitaviation.com)** (solo) : Custom ModX theme
+- **[KidSmart STL website](http://www.kidsmartstl.org)** (solo) : Custom Wordpress theme, SVG animations, Parallax
+- **[Grey Eagle Distributors website](http://greyeagle.com)** (solo) : Custom WordPress theme
+- **Brown's Victory Fridges** (support) : Technical setup of wifi devices and hardware installation
+- **NSHOF Essential 11 website** (support) : Angular, SCSS 
+- **Tailgate Club website** (support) : Angular, SCSS
+- **Aloft hotel event RSVP pages** (solo) : NodeJS, Express, and Handlebars. Formstack form building and styling for collecting data
+- **[Ultra Fit Fest website](https://ultrafitfest.com)** (solo) : Custom ModX theme
+
+### 2019 Projects
+
+- **[Air Force Heritage Flight Foundation website](https://airforceheritageflight.org)** (lead) : Custom ModX theme, inline videos
+- **[Goose Island 2019 redesign](https://gooseisland.com)** (lead) : Custom ModX theme, lazy loading
+- **[Horsemen Flight Team website](http://horsemenflight.com)** (lead) : Custom ModX theme, lazy loading, inline videos
